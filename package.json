@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "shogo suzuki",
-  "main": "server.js",
+  "main": "socket_server.ts",
   "scripts": {
-    "start": "node server.js"
+    "start": "node socket_server.js"
   },
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "socket.io": "^2.3.0"
   }
 }
